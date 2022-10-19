@@ -14,7 +14,7 @@ public class ejercicio4 {
             Scanner cubre = new Scanner(System.in);
             System.out.println("La altura es: ");
             int altura = cubre.nextInt();
-            int area = base * altura;
+            int area = (base * altura)/2;
             System.out.println("El area del triangulo es "+area);
 
         }else if (figura.contains("rectangulo")) {
