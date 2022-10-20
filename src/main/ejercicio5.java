@@ -14,7 +14,7 @@ public class ejercicio5 {
                 String letra_p = frase.contains("p") ? "La frase contiene la letra 'p'" : "La frase no contiene la letra 'p'";
                 System.out.println(letra_p);
             }
-            }else if (frase.contains("v")) {
+            }if (frase.contains("v")) {
                 System.out.println("Esta frase contiene una 'v'");
                 String letra_u = frase.contains("u") ? "La frase contiene la letra 'u'" : "La frase no contiene la letra 'u'";
                 System.out.println(letra_u);
